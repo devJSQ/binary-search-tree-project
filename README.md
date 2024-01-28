@@ -1,4 +1,4 @@
-# Binary tree - Decision tree
+# Binary Search tree  
 
 ### Objective
 In this project, our objective is to understand how to build the binary search tree. 
