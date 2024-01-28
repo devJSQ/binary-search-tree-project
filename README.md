@@ -1,4 +1,4 @@
-# Binary Search tree  
+# Binary search tree project  
 
 ### Objective
 In this project, our objective is to understand how to build the binary search tree. 
@@ -9,7 +9,7 @@ Create a binary search tree that stores persons based on their ages.
 We will create the below binary search tree:
 
 Figuer 1
-<img width="910" alt="BST" src="">
+<img width="910" alt="BST" src="https://github.com/SAFCSP-Team/binary-search-tree-project/blob/main/data-structures-and-algorithms%20-%20BST%20project.jpg">
 
 
 
