@@ -5,14 +5,12 @@ class Person {
     String name;
     int age;
 
-    public Person(String name, int age){
+    public Person(String name, int age) {
         this.name = name;
         this.age = age;
     }
 
-    
 }
-
 
 class Node {
 
@@ -20,15 +18,13 @@ class Node {
     Node right;
     Node left;
 
-    public Node(Person person){
+    public Node(Person person) {
         this.person = person;
         this.right = null;
         this.left = null;
     }
-    
+
 }
-
-
 
 public class BinarySearchTree {
     private Node root;
@@ -118,7 +114,7 @@ public class BinarySearchTree {
 
             prev = curr;
 
-            if ( deleteAge < curr.person.age) {
+            if (deleteAge < curr.person.age) {
                 curr = curr.left;
                 isLeftChild = true;
             } else {
@@ -142,40 +138,39 @@ public class BinarySearchTree {
             } else {
                 prev.right = null;
             }
-        // Case: the target is not a leaf node    
+            // Case: the target is not a leaf node
         } else {
             System.out.println("The target { " + deleteAge + " } is not a leaf node");
             return false;
         }
         // } else if (curr.left == null) {
-        //     if (curr == root) {
-        //         root = curr.right;
-        //     } else if (isLeftChild) {
-        //         prev.left = curr.right;
-        //     } else {
-        //         prev.right = curr.right;
-        //     }
-        // } else if (curr.right == null) {
-        //     if (curr == root) {
-        //         root = curr.left;
-        //     } else if (isLeftChild) {
-        //         prev.left = curr.left;
-        //     } else {
-        //         prev.right = curr.left;
-        //     }
+        // if (curr == root) {
+        // root = curr.right;
+        // } else if (isLeftChild) {
+        // prev.left = curr.right;
         // } else {
-        //     Node successor = findSuccessor(curr);
-        //     curr.val = successor.val;
-        //     if (isLeftChild) {
-        //         prev.left = deleteNode(curr.left, successor);
-        //     } else {
-        //         prev.right = deleteNode(curr.right, successor);
-        //     }
+        // prev.right = curr.right;
+        // }
+        // } else if (curr.right == null) {
+        // if (curr == root) {
+        // root = curr.left;
+        // } else if (isLeftChild) {
+        // prev.left = curr.left;
+        // } else {
+        // prev.right = curr.left;
+        // }
+        // } else {
+        // Node successor = findSuccessor(curr);
+        // curr.val = successor.val;
+        // if (isLeftChild) {
+        // prev.left = deleteNode(curr.left, successor);
+        // } else {
+        // prev.right = deleteNode(curr.right, successor);
+        // }
         // }
 
         return true;
     }
-
 
     public boolean search(int age) {
         if (this.root == null) {
@@ -202,36 +197,16 @@ public class BinarySearchTree {
         return false;
     }
 
-
     public static void main(String[] args) {
-        BinarySearchTree bst = new BinarySearchTree();
 
-        bst.insert(new Person("Ahmed", 53));
-        bst.insert(new Person("Mohammed", 23));
-        bst.insert(new Person("Abeer", 28));
-        bst.insert(new Person("Rashed", 34));
-        bst.insert(new Person("Fahad", 30));
-        bst.insert(new Person("Maha", 21));
-        bst.insert(new Person("Hanouf", 41));
-        bst.insert(new Person("Fatima", 32));
-        bst.insert(new Person("Ali", 29));
+        /* Add your code here */
 
+        // 1 - Create a BinarySearchTree object.
 
-        System.out.println("\nprint tree values:");
-        bst.print();
-
-        int deleteTerget = 53;
-        bst.delete(deleteTerget);
-
-        System.out.println("\nAfter deletion of " + deleteTerget + ":");
-        bst.print();
-
-        int searchTarget = 14;
-        System.out.println("\nWas the serach target: { " + searchTarget + " } found?" );
-        System.out.println(bst.search(searchTarget));
-
+        // 2 - Call insert function to build/add the tree in figuer 1.
         
+        // 3 - Call print function to print the tree values.
 
     }
-    
+
 }
