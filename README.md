@@ -57,7 +57,7 @@ class Node {
 }
 ```
 
-- `BinarySearchTree` class is already implemented and added to the DecesionTree java file as the below:
+- `BinarySearchTree` class is already implemented and added to the BinarySearchTree java file as the below:
 ```java
 
 public class BinarySearchTree {
