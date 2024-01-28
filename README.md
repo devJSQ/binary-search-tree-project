@@ -6,16 +6,16 @@ In this project, our objective is to understand how to build the binary search t
 ### Problem
 Create a binary search tree that stores persons based on their ages.
 
-We will create the below binary search tree:
+We will build the below binary search tree:
 
-Figuer 1
+Figuer 1   
 <img width="910" alt="BST" src="https://github.com/SAFCSP-Team/binary-search-tree-project/blob/main/data-structures-and-algorithms%20-%20BST%20project.jpg">
 
 
 
 ### Implementation   
 
-We will implement three classes: 
+We will use three classes: 
 1. `Person` class
 2. `Node` class
 3. `BinarySearhTree` class
