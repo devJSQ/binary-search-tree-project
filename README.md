@@ -5,10 +5,23 @@ In this project, our objective is to understand how to build the binary search t
 
 ### Problem
 Create a binary search tree that stores persons based on their ages.
+<br/>
+- Persons list:
+1. "Ahmed" age: 53
+2. "Mohammed" age: 23 
+3. "Abeer" age: 28 
+4. "Rashed" age: 34 
+5. "Fahad" age: 30 
+6. "Maha" age: 21 
+7. "Hanouf" age: 41 
+8. "Fatima" age: 32 
+9. "Ali" age: 29
+<br/>
+
 
 We will build the below binary search tree:
 
-Figuer 1   
+Figure 1   
 <img width="910" alt="BST" src="https://github.com/SAFCSP-Team/binary-search-tree-project/blob/main/data-structures-and-algorithms%20-%20BST%20project.jpg">
 
 
@@ -22,7 +35,7 @@ We will use three classes:
 
 Using Java programming language: 
 
-- `Person` class is already implemented and added to the BinarySearchTree java file as the below:
+- The `Person` class is already implemented and added to the BinarySearchTree java file as the below:
 ```java
 class Person {
 
@@ -40,7 +53,7 @@ class Person {
 ```
 
 
-- `Node` class is already implemented and added to the BinarySearchTree java file as the below:
+- The `Node` class is already implemented and added to the BinarySearchTree java file as below:
 ```java
 class Node {
 
@@ -57,7 +70,7 @@ class Node {
 }
 ```
 
-- `BinarySearchTree` class is already implemented and added to the BinarySearchTree java file as the below:
+- The `BinarySearchTree` class is already implemented and added to the BinarySearchTree java file as below:
 ```java
 import java.util.Stack;
 
@@ -213,11 +226,11 @@ class BinarySearchTree {
 
 ```  
   
-In `main` function perform the following actions:
+In the `main` method perform the following actions:
 
 1. Create a BinarySearchTree object.   
-2. Call insert function to build/add the tree in figuer 1.   
-3. Call print function to print the tree values.   
+2. Call the insert function to build/add the tree in Figure 1.   
+3. Call the print function to print the tree values.   
 4. Output should be the same as below:    
 ```
 print tree values:
@@ -233,9 +246,9 @@ print tree values:
 
         // 1 - Create a BinarySearchTree object.
 
-        // 2 - Call insert function to build/add the tree in figuer 1.
+        // 2 - Call the insert function to build/add the tree in figure 1.
         
-        // 3 - Call print function to print the tree values.
+        // 3 - Call the print function to print the tree values.
        
         
         
