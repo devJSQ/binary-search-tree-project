@@ -143,31 +143,6 @@ public class BinarySearchTree {
             System.out.println("The target { " + deleteAge + " } is not a leaf node");
             return false;
         }
-        // } else if (curr.left == null) {
-        // if (curr == root) {
-        // root = curr.right;
-        // } else if (isLeftChild) {
-        // prev.left = curr.right;
-        // } else {
-        // prev.right = curr.right;
-        // }
-        // } else if (curr.right == null) {
-        // if (curr == root) {
-        // root = curr.left;
-        // } else if (isLeftChild) {
-        // prev.left = curr.left;
-        // } else {
-        // prev.right = curr.left;
-        // }
-        // } else {
-        // Node successor = findSuccessor(curr);
-        // curr.val = successor.val;
-        // if (isLeftChild) {
-        // prev.left = deleteNode(curr.left, successor);
-        // } else {
-        // prev.right = deleteNode(curr.right, successor);
-        // }
-        // }
 
         return true;
     }
