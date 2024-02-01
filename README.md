@@ -59,8 +59,9 @@ class Node {
 
 - `BinarySearchTree` class is already implemented and added to the BinarySearchTree java file as the below:
 ```java
+import java.util.Stack;
 
-public class BinarySearchTree {
+class BinarySearchTree {
     private Node root;
 
     public BinarySearchTree() {
