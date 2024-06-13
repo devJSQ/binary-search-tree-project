@@ -174,13 +174,21 @@ public class BinarySearchTree {
 
     public static void main(String[] args) {
 
-        /* Add your code here */
+         BinarySearchTree b1 = new BinarySearchTree();
 
-        // 1 - Create a BinarySearchTree object.
-
-        // 2 - Call insert function to build/add the tree in figuer 1.
         
-        // 3 - Call print function to print the tree values.
+        b1.insert(new Person("ahmad", 53));
+        b1.insert(new Person("mohammed", 23));
+        b1.insert(new Person("maha", 21));
+        b1.insert(new Person("abeer", 28));
+        b1.insert(new Person("rashed", 34));
+        b1.insert(new Person("fahad", 30));
+        b1.insert(new Person("hanouf", 44));
+        b1.insert(new Person("fatima", 32));
+        b1.insert(new Person("ali", 29));
+        
+        
+       b1.print();
 
     }
 
